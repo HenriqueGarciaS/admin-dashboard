@@ -34,3 +34,21 @@ html{
     grid-row: 2/3;
     background-color: #D3D3D3;
 }
+
+.sidebar-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar-title-img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sidebar-p{
+    box-sizing: border-box;
+    margin-top:15px;
+    margin-right:50px;
+}
