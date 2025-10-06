@@ -37,18 +37,41 @@ html{
 
 .sidebar-title{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
 
 .sidebar-title-img{
+    box-sizing: border-box;
     height: 50px;
     width: 50px;
-    background-color: white;
-    border-radius: 5px;
+    margin-left: 80px;
+}
+
+.sidebar-link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .sidebar-p{
     box-sizing: border-box;
     margin-top:15px;
-    margin-right:50px;
+    margin-left:25px;
+}
+
+.sidebar-link-a{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar-link-configuration{
+    margin-top: 50px;
+}
+
+.sidebar-link-img{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 15px;
+    height: 25px;
+    width: 25px;
 }
