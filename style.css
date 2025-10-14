@@ -179,20 +179,18 @@ html{
 }
 
 .main-container{
-    display: grid;
-    grid-template-columns: 500px 150px;
-    grid-template-rows: 50px 250px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main-p{
+    grid-column: 1/4;
     font-family: sans-serif, "Times new Roman";
     margin-left: 15px;
     margin-top: 15px;
 }
 
 .main-projects{
-    grid-column: 1/2;
-    grid-row: 2/2;
     display: grid;
     grid-template-columns: 500px 500px 500px;
 }
@@ -217,4 +215,46 @@ html{
 
 .main-project-img:hover{
     cursor: pointer;
+}
+
+.main-announcements{
+    height: 430px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.main-announcement{
+    box-sizing: border-box;
+    padding:50px;
+    border-bottom: black solid 2px;
+}
+
+.no-border{
+    border: black 2px;
+}
+
+.main-trending{
+    background-color: white;
+    height:250px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+.main-trending-account{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-trending-img{
+    height: 50px;
+    width: 50px;
+}
+
+.main-trending-s{
+    padding:10px;
 }
